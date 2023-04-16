@@ -1,0 +1,27 @@
+@import "variables.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* home-css */
+@import "home-css/sell-page.css";
+/* local-life-css */
+@import "local-life-css/local-life.css";
+/* near-info-css */
+@import "near-info-css/etc-menu.css";
+@import "near-info-css/near-page__property.css";
+@import "near-info-css/part-time-job.css";
+/* chats-css */
+@import "chats-css/chats.css";
+/* my-pumpkin-css */
+@import "my-pumpkin-css/pumpkin-header.css";
+@import "my-pumpkin-css/my-pumpkin.css";
+
+body {
+  margin: 0;
+  height: 200vh;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}

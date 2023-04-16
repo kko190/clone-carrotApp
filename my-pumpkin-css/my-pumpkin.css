@@ -1,0 +1,68 @@
+.pumpkin-pay__first-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pumpkin-pay__box {
+  margin: 5px 18px;
+  padding: 15px 15px;
+  border: 1px solid var(--line-color);
+  border-radius: 7px;
+}
+.pumpkin-pay__second-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.pumkin-pay__btn {
+  display: flex;
+  border-radius: 5px;
+  padding: 7px 0px;
+  justify-content: center;
+  width: 210px;
+  background-color: var(--bg-color);
+}
+.first-column__text {
+  font-weight: 600;
+}
+.first-column__text span:first-of-type {
+  font-size: 20px;
+  margin-right: 5px;
+  color: orangered;
+}
+.pumkin-pay__btn span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.pumkin-pay__btn span i {
+  margin-right: 5px;
+}
+.my-pumpkin__list {
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+  border-bottom: 1px solid var(--line-color);
+}
+.my-pumpkin__list-box {
+  padding-top: 15px;
+}
+.my-pumpkin__column i {
+  width: 15px;
+  margin-right: 20px;
+}
+.my-pumpkin__list-container {
+  margin-top: 20px;
+  padding: 0px 18px;
+}
+.my-pumpkin__column {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.my-pumpkin__column span:last-of-type {
+  font-size: 16px;
+}
+.list-title {
+  font-weight: 600;
+}
